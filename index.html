@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 1 JavaScript</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<p id="demo">
+    This is a paragraph
+</p>
+<button onclick="changeText()">Click on me!</button>
+
+<script>
+    function changeText() {
+        console.log("hesh");
+        console.log(document.getElementById("demo"));
+        console.dir(document.getElementById("demo"));
+        console.error("Some error occurred");
+        document.getElementById("demo").innerHTML = "Takk Ingrid";
+    }
+</script>
+
+</body>
+</html>
