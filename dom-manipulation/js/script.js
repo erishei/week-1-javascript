@@ -2,7 +2,7 @@
 // There are different ways of doing this.
 // getElementById is one, however this heading has a class not id.
 // querySelector is another one. and this one gets both ids and classes
-// querySelectorAll chooses anything and everything with the h2 class (articles, divs etc)
+// querySelectorAll chooses anything and everything with the h2 class (articles, divs etc.)
 
 const heading2 = document.querySelector("h2");
 console.log(heading2);
@@ -16,7 +16,7 @@ console.log(headingByClass);
 const list =  document.querySelector("#list");
 console.log(list);
 
-// 4. You can also use .getElementById (with gEBI you dont use . or #
+// 4. You can also use .getElementById (with gEBI you don't use . or #)
 // However with querySelector you have to define it
 const list2 = document.getElementById("list");
 console.log(list2);
@@ -134,7 +134,7 @@ console.log(isEqual); // = true
 // strict equal (===)
 let strictEqual = (5 === "5"); // false
 console.log(strictEqual);
-// This one takes data tyoe into account when comparing and deems a number and a string unequal.
+// This one takes data type into account when comparing and deems a number and a string unequal.
 
 // not equal (!=)
 // 5 != 5 // true
