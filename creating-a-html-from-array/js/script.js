@@ -19,7 +19,7 @@ const pets = [
 ];
 // Select the pet-container class
 const petContainer = document.querySelector(".pet-container");
-console.log("petConatiner: ",petContainer);
+console.log("petContainer: ",petContainer);
 
 // Create a html variable to hold our html in it when we use the loop.
 let html = "";
