@@ -3,5 +3,5 @@
 // Import the full user greeting.
 
 function greetUser (user){
-    console.log(`Welcome to our website: $user`)
+    console.log(`Welcome to our website: ${user}`)
 }
