@@ -1,4 +1,4 @@
-export let someWord = "Hello"
+export let someWord = "Hello";
 
 export function logWord (word){
     console.log(word);

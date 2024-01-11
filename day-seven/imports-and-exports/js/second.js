@@ -1,4 +1,4 @@
-import {someWord, logWord} from "./script";
+import {someWord, logWord} from "./script.js";
 
 console.log(someWord);
 

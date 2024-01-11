@@ -2,6 +2,6 @@
 
 // Import the full user greeting.
 
-function greetUser (user){
-    console.log(`Welcome to our website: $user`)
+export function greetUser (user){
+    console.log(`Welcome to our website: ${user}`);
 }
