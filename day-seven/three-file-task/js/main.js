@@ -4,5 +4,6 @@
 
 import {userName} from "./user.js";
 import {greetUser} from "./utils.js";
+// Curly brackets means named export
 
 greetUser(userName);
