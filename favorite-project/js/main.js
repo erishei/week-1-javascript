@@ -49,3 +49,18 @@ for (let x = 0; x < favourites.length; x++) {
 
 // TODO I want to move my clicking event of the fav button
 //  to it's own function instead of the anonymous function
+
+let favs = [];
+
+favs.push({
+    name : "Product One",
+    id : 2,
+    price: 10000
+});
+
+window.localStorage.setItem("favourites", JSON.stringify(someRandomArray));
+
+// Data attribute is a way to pass data from the HTML elements
+// to the JS
+// for ex you have a <p> onClick={someFunction} Hello I am some line
+// </p>
