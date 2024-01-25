@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Attributes</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            width: 100vw;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <article id="post" data-author="Chris" data-category="Comic">
+<!-- When writing data only use lower case and the attribute should
+     only be one word. -->
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, aspernatur autem beatae consectetur consequuntur eaque facilis fugit harum hic magni odit omnis quas quibusdam quisquam quod rerum sequi velit?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolores ducimus facilis impedit sint? Aliquid asperiores aspernatur beatae cum, debitis expedita in inventore iure magni, quam quas quis rerum voluptatem?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid beatae debitis eligendi, eos, fugit ipsam itaque iusto minus molestias necessitatibus nobis odit officiis quisquam soluta tempora tempore tenetur ullam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis hic provident recusandae sequi. Amet atque blanditiis, consequatur dolor dolorem doloremque et expedita iste laboriosam minus, modi quaerat reprehenderit tempora!
+    </article>
+<!--    <button id="details-btn" onclick="myFunction()">Click to see the post details!</button>-->
+    <div>
+        <button id="details-btn">Click to see the post details!</button>
+    </div>
+    <img
+            src="assets/images/banana-small.jpeg"
+            alt="post image"
+            data-fullsize="assets/images/banana-large.jpeg"
+            style="cursor: pointer"
+    />
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
